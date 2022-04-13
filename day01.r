@@ -8,7 +8,7 @@ x*x # nolint
 y + y
 
 # 2. 여러 개의 값을 변수 저장하기(배열과 같은 자료 사용하기)
-x <- c(5,6)         # 벡터 변수, 여러개의 값을 하나의 변수에 저장
+x <- c(5, 6)         # 벡터 변수, 여러개의 값을 하나의 변수에 저장
 print(x)
 
 # 여러 개의 가진 변수에 일부 값을 참조시 인덱스를 사용
@@ -28,13 +28,13 @@ x[2]
 # integer : integet타입 (숫자 L을 붙여서 표현) (1L, 55L, 100L)
 # complex : 복소수형(i를 붙여서 구분)
 # character : 문자 / 문자열 자료
-# logical : 논리자료(True/False)
+# logical : 논리자료(TRUE/FALSE) # nolint
 
 # 타입보는 명령어(함수) - class()
 class(10L)
 class(10.7)
 class("th")
-class('test')
+class("test")
 class(TRUE)
 
 ## 형변환 : as.numeric(), as.integer(), as.complex()
@@ -48,13 +48,13 @@ class(b)
 
 ### 연산자(산술)
 # + , -, *, /, ^(제곱), %%(나머지), %/%(정수나누기)
-a+b
-a-b
-a*b
-a/b
-a^b
-a%%b
-a%/%b
+a + b
+a - b
+a * b
+a / b
+a ^ b
+a %% b
+a %/% b
 # <-, <<-, ->, ->>
 # "<<-" : 전역선언, "<-" : 대입처리
 

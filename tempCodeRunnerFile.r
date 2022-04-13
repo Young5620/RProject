@@ -1,6 +1,3 @@
-x <- 1L
-y <- 2
-a <- as.numeric(x)
-b <- as.integer(y)
-class(a)
-class(b)
+su <- readline("숫자를 입력하세요 : ")
+num <- as.numeric(su)
+reverse(num)
